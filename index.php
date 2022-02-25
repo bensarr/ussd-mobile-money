@@ -1,7 +1,7 @@
 <?php
 include_once 'menu.php';
 
-$isUserRegistered = false;
+$isUserRegistered = true;
 
 // Read the data sent via POST from our AT API
 $sessionId   = $_POST["sessionId"];
